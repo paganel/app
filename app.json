@@ -1,0 +1,6 @@
+{
+  "name": "open form.",
+  "description": "A feedback gathering tool",
+  "repository": "https://github.com/tammo/openform",
+  "keywords": ["node", "express", "feedback", "react"]
+}

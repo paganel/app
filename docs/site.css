@@ -1,0 +1,72 @@
+body {
+  padding: 16px;
+  font-size: small;
+  color: #444;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+.heroku-btn {
+  display: inline-block;
+  margin: 3em 0;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+footer.wrapper {
+  margin: 25px 0 0 0;
+}
+
+footer strong {
+  display: block;
+  font-size: medium;
+}
+
+footer a {
+  display: inline-block;
+}
+
+@media(min-width: 400px) {
+  body {
+    padding-top: 100px;
+  }
+
+  .main-box {
+    display: flex;
+  }
+
+  .screenshot {
+    padding-left: 2em;
+  }
+
+  .screenshot img {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  }
+
+  footer.wrapper {
+    margin: 100px auto 25px auto;
+  }
+}
+
+@media(min-width: 1024px) {
+  .screenshot {
+    padding-left: 10em;
+  }
+  .screenshot img {
+    max-width: 646px;
+  }
+}

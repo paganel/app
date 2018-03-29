@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../static/reboot.css">
+    <link rel="stylesheet" href="../static/framework.css">
+    <link rel="stylesheet" href="./site.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+    <title>open form.</title>
+  </head>
+  <body>
+    <div class="wrapper main-box">
+      <div>
+        <h1>open form.</h1>
+        <p class="lead">is an open source, self hosted feedback gathering tool.</p>
+        <a class="heroku-btn" href="https://heroku.com/deploy?template=https://github.com/open-form/app">
+          <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+        </a>
+        <p>What you get is what you see in the right lower corner.</p>
+        <p>Embed a snippet on any kind of website and your users will get the feedback button.</p>
+        <p>You can view the given feedback on a private page.</p>
+      </div>
+      <div class="screenshot" >
+        <img src="./screenshot.png" />
+      </div>
+    </div>
+    <footer class="wrapper">
+      <strong>Links</strong>
+      <a class="mt-1" href="https://github.com/open-form/app">Github repository</a>
+    </footer>
+
+    <!-- open form overlay -->
+    <script>
+      (function(i,s,o,g,r){i['OpenFormObj']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+      a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://prod-open-form.herokuapp.com/static/overlay.min.js','ofo');
+      ofo('host','https://prod-open-form.herokuapp.com')
+    </script>
+    <!-- end open form overlay -->
+  </body>
+</html>

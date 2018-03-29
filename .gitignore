@@ -1,0 +1,10 @@
+.DS_STORE
+node_modules
+build
+.idea
+.next
+.vscode
+yarn-error.log
+static/react-table.css
+static/overlay.min.js
+.env
