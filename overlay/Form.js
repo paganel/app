@@ -100,7 +100,7 @@ export class Form extends React.Component {
         {this.state.op === 'error' && <p className={styles.error}>An error occured. Please try again later.</p>}
 
         <p className={styles.infoText}>
-          This <a href="https://github.com">feedback form</a> is hosted by the website owner – no third party involved.
+          This <a href="https://open-form.github.io/app/">feedback form</a> is hosted by the website owner – no third party involved.
         </p>
       </div>
     )
