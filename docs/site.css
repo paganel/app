@@ -31,13 +31,18 @@ footer.wrapper {
   margin: 25px 0 0 0;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
 footer strong {
   display: block;
   font-size: medium;
 }
 
 footer a {
-  display: inline-block;
+  display: block;
 }
 
 @media(min-width: 400px) {
