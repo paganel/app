@@ -8,11 +8,12 @@ export class EnvPage extends React.Component {
     return (
       <Page>
         <Lead>setup the database connection</Lead>
-        <p>Your Heroku app needs one configuration, that is fairly easy to do. Follow these steps and you are good to go!</p>
+        <strong>This only applies if you installed the app on Heroku!</strong>
+        <p>Your app needs one configuration, that is fairly easy to do. Follow these steps and you are good to go!</p>
         <h3>1</h3>
         <p>
           Go to <a href="https://dashboard.heroku.com/apps">https://dashboard.heroku.com/apps</a> and select your new instance. It will have
-          a random name like "aqueous-meadow-17060 ".
+          a random name like "aqueous-meadow-17060".
         </p>
 
         <h3>2</h3>
