@@ -17,6 +17,8 @@
   border-radius: 3px;
   max-height: 20vh;
   height: 20vh;
+  min-height: 100px;
+  resize: none;
 }
 
 .infoText {
