@@ -45,6 +45,10 @@ footer a {
   display: block;
 }
 
+.screenshot {
+  display: none;
+}
+
 @media(min-width: 400px) {
   body {
     padding-top: 100px;
@@ -69,6 +73,7 @@ footer a {
 
 @media(min-width: 1024px) {
   .screenshot {
+    display: block;
     padding-left: 10em;
   }
   .screenshot img {
