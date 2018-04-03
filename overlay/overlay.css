@@ -21,6 +21,10 @@
   margin: 0 10px 10px 10px;
 }
 
+.box.hide {
+  display: none;
+}
+
 .active {
   opacity: 1;
   transform: scale(1);
