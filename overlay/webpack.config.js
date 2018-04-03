@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: ['./overlay/index.js'],
+  mode: 'production',
   module: {
     rules: [
       {
