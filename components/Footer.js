@@ -6,7 +6,7 @@ export class Footer extends React.Component {
       <footer>
         <div>
           <strong>open form.</strong>
-          <p>is an open source, self hosted feedback gathering tool.</p>
+          <p>is an open source, self hosted tool to collect feedback.</p>
         </div>
         <div>
           <strong>Links</strong>
